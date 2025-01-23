@@ -4322,6 +4322,7 @@ function autoComplete(str,curText)
 end
 
 CMDs = {}
+CMDs[#CMDs + 1] = {NAME = 'hideiy', DESC = 'Hides the main IY GUI'}
 CMDs[#CMDs + 1] = {NAME = 'goto [player]', DESC = 'Go to a player'}
 CMDs[#CMDs + 1] = {NAME = 'tpposition / tppos [X Y Z]', DESC = 'Teleports you to certain coordinates'}
 CMDs[#CMDs + 1] = {NAME = 'noclip', DESC = 'Go through objects'}
